@@ -117,6 +117,26 @@ article.heroe::before {
   background-image: url("../img/hero.gif");
 }
 
+article.ninja::before {
+  -webkit-filter: blur(1px) grayscale(0.3) brightness(0.4);
+  -moz-filter: blur(1px) grayscale(0.3) brightness(0.4);
+  filter: blur(1px) grayscale(0.3) brightness(0.4);
+  background-image: url("../img/ninja.gif");
+}
+
+
+article.final::before {
+  -webkit-filter: blur(0.5px) grayscale(0.3) brightness(0.4);
+  -moz-filter: blur(0.5px) grayscale(0.3) brightness(0.4);
+  filter: blur(0.5px) grayscale(0.3) brightness(0.4);
+  background-image: url("../img/clap.gif");
+}
+
+.final a{
+margin-right:30px;
+    color:#eded2f;
+}
+
 
 article.adventure-time::before {
   -webkit-filter: grayscale(0) brightness(1);
